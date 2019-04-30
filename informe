@@ -1,0 +1,257 @@
+
+\chapter{PLANTEAMIENTO DEL PROBLEMA}
+
+
+Hoy en día, aunque a veces los usemos como sencillos, la inmensa mayoría de interruptores que se comercializan son conmutados. Su función es permitir controlar un punto de luz desde dos interruptores diferentes, muy útil por ejemplo en pasillos, donde un interruptor se coloca al principio y otro al final.
+En este caso la fase debe pasar por los dos interruptores antes de dirigirse a la lámpara en cuestión, con la particularidad de que ambos interruptores deben de estar unidos por una pareja de cables, que es lo que permite que al abrir o cerrar cualquiera de las dos llaves, la luz pase de encendida a apagada o viceversa.
+la finalidad de un circuito conmutado es posibilitar derivaciones y empalmes. Por ejemplo, si de un cable de línea que llega a la caja del interruptor queremos alimentar otro interruptor para otra lámpara.
+
+
+\chapter{OBJETIVOS}
+
+\section{General}
+
+	\begin{itemize}
+    \item Enseñar a los usuarios de las herramientas de adaptación y aumento de la productividad disponible en AutoCAD Electrical para mejorar el diseño de proyectos y los procesos de administración.
+	\end{itemize}
+
+\section{Especificos}
+
+
+	\begin{itemize}
+    \item Investigar el enfoque de AutoCAD electrical
+    \item Comprender el área en el que se aplica autroCAD electrical.
+    \item Describir las ventajas y beneficios del uso de AutoCAD electrical
+	\end{itemize}
+
+
+
+\chapter{ESTADO DEL ARTE}
+
+INTERACT fue el primer sistema CAD para ejecutarse en el procesador de un microordenador. (Otros sistemas CAD de empresas propietarias de hardware, ejecutaban sus aplicativos CAD desde  mainframes o minicomputadoras.) Su primer cliente comercial fue Atlantic Richfield, que utiliza el sistema para planificar inmersiones profundas para plataformas petrolíferas.
+INTERACT fue escrito por Mike Riddle. Anteriormente él había trabajado en el sistema Computervision CADDS3, que fue utilizado por, Marathon Steel, para  detallar el acero estructural utilizado en la central nuclear de Palo Verde, al oeste de Phoenix.
+Con la seguridad en sí mismo, Riddle  pensó que podía reescribir  CADDS3 y hacerlo mejor.
+
+
+Él escribió INTERACT en su tiempo libre, a partir de 1977. Estaba limitado por el estado del hardware de ese momento  - tenía que escribir el programa en partes  y compilarlo en las tarjetas existentes de esa época - . En última instancia, decidió que necesitaba un procesador que podría soportar hardware múltiple (procesador, digitalizadores, pantalla de video, dispositivos de almacenamiento, etc.)
+Marinchip Systems, propiedad de John Walker y Dan Drake, realizó una placa principal S-100 con un procesador de TMS-9900 TI que se ajustaba perfectamente a sus requerimientos.
+Cuando John Walker vio INTERACT ejecutarse en el equipo Marinchip Systems, quedo lo suficientemente impresionado que decidió convertirse en un distribuidor del  software.
+A finales de 1981, Walker, Drake, Riddle, y alrededor de una docena de otras personas, se reunieron para fundar lo que,  en enero de 1982, se convertiría en Marinchip Software Partners, y poco después, Autodesk.
+
+
+
+INTERACT fue reescrito en el lenguaje C, para ejecutarse en el nuevo PC de IBM, y fue rebautizado, primero como MicroCAD, y luego, como AutoCAD, (el nombre MicroCAD ya había sido patentado por otra empresa)
+La forma de interactuar con AutoCAD de hoy se parece muy poco a la versión original (lo único que se ha mantenido es la ventana de comandos, antes se llamaba “command line”).
+Sin embargo, la mayoría de los comandos de INTERACT originales siguen trabajando en AutoCAD.
+Desde el evento COMDEX en las Vegas (Noviembre 1982) en la que apareció la primera versión de AutoCAD versión 1.0 (para DOS) hasta la versión AutoCAD 2016 (versión 20.1s),  AutoCAD es el programa de referencia del Diseño Asistido por Computadora (CAD).
+Para los que empezamos con AutoCAD en la década de los 80s, para aquellos que no tenían un tablero digitalizador, era normal el uso de la flecha de dirección del teclado para mover el cursor o hacer cálculos mentalmente para calcular la próxima coordenada en base a los desplazamientos X e Y del cursor (delta X , delta  Y , conocidas como coordenadas relativas).
+
+
+
+ 
+Ya la versión 2.17 trabaja con mouse pero no soportaba las primeras versiones de Microsoft Mouse y se cargaba el ADE-3 para trabajar en tres dimensiones, esta versión necesitaba mantener en la disquetera el disco de instalación de 5-1/4 para ejecutarse, con monitores CGA y tarjetas de video TECMAR o HERCULES.
+Uno de los primeros  libros en español sobre AutoCAD que se usaba en el Perú fue la “Guía del Usuario AUTOCAD Dibujo Asistido por Ordenador” de J.L.Cogollor Gomez, (Profesor de AutoCAD de la Universidad Pontificia de Salamanca de Madrid).
+Posteriormente con la aparición de Windows 3.0 y 3.1 el mouse era el instrumento de moda para las nuevas PCs, y AutoCAD saca provecho de ello incluyéndolo como dispositivo de señalización (antes el mouse solo tenía 2 botones), pero AutoCAD en su versión 9, ya soportaba el co-procesador matemático, así que había que comprarlo a parte e incluirlo en las placas , posteriormente apareció el famoso emulador del co-procesador matemático para poder ejecutar AutoCAD 10 en cualquier PC e inclusive en UNIX,  redes Novell y equipos MAC.
+
+
+
+Con la versión AutoCAD  v10 en Octubre de 1988, se empezó a masificar el uso de AutoCAD, aparecieron las primeras publicaciones  que cubrían tópicos avanzados del Programa en español, como las de Javier López Fernández  y Juan Carlos Bartolomé Larrinaga de la editorial McGraw-Hill: “AutoCAD Avanzado v.10”.
+
+
+
+
+\chapter{MARCO TEÓRICO}
+
+Los circuitos de conmutación se basan en interruptores que permiten o no la circulación de una corriente eléctrica, estos interruptores pueden ser manuales si se actúan directamente, como un interruptor de la luz. Estarán compuestos por una serie de contactos que representarán las variables lógicas de entrada y una o varias cargas que representarán las variables lógicas o funciones de salida los contactos pueden ser normalmente abiertos (NA) o normalmente cerrados (NC). Los primeros permanecerán abiertos mientras no se actúe sobre ellos (por ejemplo al pulsar sobre interruptor, saturar un transistor, etc.). Los contactos NC funcionarán justamente al contrario. Esto significa que si se actúa sobre un contacto NA se cerrará y si se hace sobre uno NC se abrirá.
+Se distinguen dos tipos de conmutadores eléctricos:	
+	\begin{itemize}
+    \item Conmutador unipolar:
+Cuenta con dos terminales, uno de salida y uno de llegada. A su vez, en el terminal de llegada puede tener dos o más conexiones. Si el terminal de llegada tiene dos opciones de enlace, se trata de un conmutador de dos posiciones.
+En cambio, si el terminal de llegada tiene tres o más alternativas de conexión, entonces se trata de un conmutador de multiposiciones.
+	\end{itemize}
+	
+	\begin{itemize}
+    \item Conmutador multipolar:
+A diferencia del conmutador unipolar, este dispositivo tiene varias opciones de conexión en el terminal de salida. Este tipo de conmutador es de selección múltiple.
+	\end{itemize}
+
+Generalmente los terminales conectados en la salida están ligados entre sí, con lo cual se garantiza que el sentido de conmutación de ambas conexiones sea el mismo con respecto al terminal de llegada.
+En un circuito de conmutación se realiza un análisis de la lógica del circuito, haciendo abstracción de los detalles de funcionamiento de los mecanismos que intervienen, así como del dimensionado de los aparatos y resto del circuito para las intensidades de corriente y diferencia de potencial con los que trabaja, prestando atención prioritaria a la lógica de la conmutación, por ello no son necesarios, algunos de los detalles eléctricos, propios de los circuitos eléctricos, y si es necesario determinar un convenio de representación de los circuitos que impida errores en su interpretación, teniendo en cuenta lo siguiente: 
+
+	\begin{itemize}
+    \item Circuito de conmutación, es un esquema de funcionamiento y no un plano de construcción, por lo tanto la situación de los aparatos se hará según esa lógica.
+    \item En un circuito de conmutación no se señalan detalles eléctricos, como intensidades o tensiones eléctricas.
+	\end{itemize}
+	
+\chapter{DIAGRAMAS}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/d1.jpg}
+\caption{\label{fig1}DIAGRAMAS.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.50\textwidth]{capitulos/d2.jpg}
+\caption{\label{fig1}DIAGRAMAS.}
+\end{figure}
+
+
+
+\chapter{LISTA DE COMPONENTES}
+
+
+	\begin{itemize}
+    \item 2 interruptores 3 way
+    \item 2 cajetines 
+    \item 2 boquillas
+    \item 2 metros de alambre gemelo nº16
+    \item canaleta
+    \item una tabla triplex 
+    \item herramientas 
+    \item multimetro
+    \item 2 focos
+	\end{itemize}
+
+
+
+\chapter{MAPA DE VARIABLES}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/m1.jpg}
+\caption{\label{fig1}MAPA DE VARIABLES.}
+\end{figure}
+
+
+
+
+\chapter{EXPLICACIÓN DEL CÓDIGO FUENTE}
+
+	\begin{itemize}
+    \item Un conmutador eléctrico es un mecanismo que permite el cambio en el recorrido de la corriente eléctrica. Esto es posible mediante el bloqueo del circuito primario y la habilitación de un circuito alterno.
+    \item El conmutador cuenta con dos o más vías de circulación para los electrones. Dependiendo del diseño del circuito, el conmutador se mantendrá en el punto de conexión original o cambiará hacia el otro conector.
+    \item El conmutador permite cambiar el sentido de circulación de la corriente eléctrica dentro de la bobina de la armadura del motor. Así se induce el movimiento y el torque correspondiente.
+    \item La aplicación del conmutador en generadores de corriente continua es recíproca, y se evidencia al cambiar la dirección de circulación de la corriente eléctrica entre el circuito externo y el rotor.
+    \item Se distinguen dos tipos de conmutadores eléctricos:
+    Conmutador unipolar.- Cuenta con dos terminales, uno de salida y uno de llegada. A su vez, en el terminal de llegada puede tener dos o más conexiones. Si el terminal de llegada tiene dos opciones de enlace, se trata de un conmutador de dos posiciones. En cambio, si el terminal de llegada tiene tres o más alternativas de conexión, entonces se trata de un conmutador de multiposiciones.
+    \item Conmutador multipolar.- A diferencia del conmutador unipolar, este dispositivo tiene varias opciones de conexión en el terminal de salida. Este tipo de conmutador es de selección múltiple. Generalmente los terminales conectados en la salida están ligados entre sí, con lo cual se garantiza que el sentido de conmutación de ambas conexiones sea el mismo con respecto al terminal de llegada.
+	\end{itemize}
+	
+
+
+
+\chapter{DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN}
+
+Se trata de un dispositivo que permite controlar el encendido y apagado del mismo punto de luz, desde dos mandos diferentes. El ejemplo más claro es imaginarnos un pasillo en el que encendemos las luces desde el principio del pasillo y las apagamos desde el final del pasillo. En este caso, ya no utilizaríamos un interruptor, sino dos conmutadores para el mismo circuito eléctrico. 
+Internamente, es prácticamente igual que el interruptor, sólo que a este se le añade otro contacto, es decir que en lugar de dos cables (como tendríamos en el interruptor), tenemos tres.
+Es importante saber que los conmutadores pueden actuar como interruptor si se conectan para ello, pero no al revés. El interruptor jamás podrá actuar como conmutador.
+
+
+
+
+\chapter{APORTACIONES} 
+
+
+	\begin{itemize}
+    \item  CONMUTADOR ELÉCTRICO INTELIGENTE PARA APLICACIONES INDUSTRIALES STMicroelectronics ha introducido un nuevo conmutador eléctrico inteligente (IPS) para controles industriales, que ofrece mayor precisión para minimizar las pérdidas de energía y prevenir errores de sistema al producirse un fallo. Permiten disminuir el límite de corriente de sobrecarga en comparación con el resto de dispositivos del mercado para mantener las condiciones eléctricas estables mientras el sistema se recupera.
+    \item  En una instalación de una vivienda o similar, cuando queremos realizar el encendido de un punto de luz desde dos lugares diferentes utilizamos conmutadores. 
+    Cuando éstos salieron al mercado se les conocía por conmutador "tipo hotel" porque era precisamente en los hoteles donde se instalaron, las viviendas de esa época por norma general no utilizaban conmutadores sino interruptores normales.
+    \item El uso de conmutadores eléctricos hace posible la fácil conexión y desconexión de ciertos tramos de un circuito complejo, como por ejemplo, una red de transmisión de datos. Este tipo de dispositivos es sumamente común en instalaciones eléctricas residenciales. También se encuentran presentes en electrodomésticos y otro tipo de aplicaciones electrónicas.
+    \item Un ejemplo práctico del uso de conmutadores eléctricos es la conexión del sistema de luces de los automóviles, cuya conmutación se lleva a cabo mediante el accionamiento de una palanca de cambios.
+    Por ejemplo: al desplazar la palanca de las luces del vehículo una sola vez, se encienden las luces de cruce. Si se repite el desplazamiento en la misma dirección, el mecanismo cambia el camino de circulación de la corriente eléctrica a través de ese circuito, y cambia al circuito de las luces bajas del vehículo. Acto seguido, las luces de cruce se apagan y las luces bajas se encienden, dando lugar a la conmutación. Otra de las aplicaciones más populares de los conmutadores eléctricos es en las máquinas rotativas de corriente continua. 
+	\end{itemize}
+
+
+
+\chapter{CONCLUSIONES}
+
+	\begin{itemize}
+    \item Un conmutador es aquel que permite controlar el encendido y apagado del mismo punto de luz, desde dos mandos diferentes, ayudando al ahorro de tiempo y satisfacción de parte del usuario.
+    \item Los circuitos conmutados son utilizados en distintas áreas dentro de la industria, además hoy en día existen instalaciones del circuito conmutado dentro de viviendas y otros.
+    \item Este tipo de dispositivos es sumamente común en instalaciones eléctricas residenciales. También se encuentran presentes en electrodomésticos y otro tipo de aplicaciones electrónicas.
+    \item Es importante saber que los conmutadores pueden actuar como interruptor si se conectan para ello, pero no al revés. El interruptor jamás podrá actuar como conmutador.
+	\end{itemize}
+
+
+\chapter{RECOMENDACIONES}
+
+Si se va a colocar conmutado desde dos interruptores simples ya existentes, debes desmontar los mecanismos y meter dos cables nuevos del mismo color, marrón por ejemplo, que unan los interruptores entre sí. Lo tendrás que hacer a través de la caja o cajas de derivación y los tubos corrugados que se junten en ellas.
+
+Se debe comprobar las conexiones en los interruptores conmutados y también en las conexiones hechas en las cajas de derivación y en la lámpara. Comprobar tambien que los cables están bien metidos y en su lugar en los bornes de los interruptores, en las clemas de las cajas de derivación y en la lámpara, si has hecho algún trabajo en ella. Nunca deben quedar filamentos sueltos. Vuelve a conectar para comprobar su funcionamiento.
+
+Se recomienda utilizar las herramientas adecuadas para la manipulacion de cables y para el aislamiento de los mismos 
+
+
+\chapter{CRONOGRAMA}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/c1.jpg}
+\caption{\label{fig1}CRONOGRAMA.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/c2.jpg}
+\caption{\label{fig1}CRONOGRAMA.}
+\end{figure}
+
+
+\chapter{BIBLIOGRAFÍA}
+
+
+
+
+\chapter{ANEXOS}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/a1.png}
+\caption{\label{fig1}ANEXOS.}
+\end{figure}
+
+ \begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/a2.jpg}
+\caption{\label{fig1}ANEXOS.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/a3.jpg}
+\caption{\label{fig1}ANEXOS.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{capitulos/a4.png}
+\caption{\label{fig1}ANEXOS.}
+\end{figure}
+
+
+
+
+
+\section{MANUAL DE USUARIO}
+Revise:
+
+	\begin{itemize}
+    \item  http://www.bticino.com.mx/uploads/9ad67ecdd13654a57123ffb0244c6d6d.pdf
+	\end{itemize}
+
+
+
+
+
+\section{HOJAS TÉCNICA}
+
+
+
+
+
+
+
+
+
